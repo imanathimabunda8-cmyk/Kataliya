@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Kataliya</title>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -37,8 +37,36 @@
     <div class="auth-box">
       <input type="email" placeholder="Email address" class="auth-input"/>
       <input type="password" placeholder="Password" class="auth-input"/>
-      <button class="auth-btn">Sign In</button>
+      <button class="auth-btn" id="signin-btn">Sign In</button>
       <p class="auth-link">No account? <a href="#">Sign up</a></p>
+    </div>
+  </div>
+
+  <!-- DASHBOARD SCREEN -->
+  <div class="screen hidden" id="dashboard-screen">
+    <div class="dashboard">
+      <div class="dashboard-header">
+        <h1 class="brand-name small-brand">Kataliya</h1>
+      </div>
+      <div class="task-list" id="task-list">
+        <!-- Tasks will appear here -->
+      </div>
+      <div class="bottom-bar">
+        <button class="bar-btn" id="add-btn">+ Add</button>
+        <button class="bar-btn">Profile</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TASK POPUP -->
+  <div class="popup-overlay hidden" id="popup-overlay">
+    <div class="popup">
+      <h3 class="popup-title">Task</h3>
+      <input type="text" class="popup-input" id="popup-input" placeholder="Task title"/>
+      <div class="popup-actions">
+        <button class="popup-btn add" id="popup-add">Add</button>
+        <button class="popup-btn delete" id="popup-delete">Delete</button>
+      </div>
     </div>
   </div>
 
