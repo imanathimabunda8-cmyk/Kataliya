@@ -1,8 +1,10 @@
 const path = require('path');
-const Database = require('better-sqlite3');
 const express = require('express');
+const cors = require('cors');
+const Database = require('better-sqlite3');
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 // Database setup
