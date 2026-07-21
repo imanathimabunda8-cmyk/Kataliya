@@ -1,0 +1,76 @@
+# Kataliya 🌍
+### Personal AI Assistant
+
+Kataliya is a personal AI assistant built from the ground up by a solo developer from Durban, South Africa. Inspired by the idea of a real-life Jarvis — a system that handles admin, remembers important information, automates daily tasks, and eventually interacts with the physical world.
+
+This is Act 1. The brain is being built first.
+
+---
+
+## Current Version — Act 1, Version 1
+
+### What Kataliya can do right now:
+- Loading screen with animated logo
+- Sign in screen
+- Personal task dashboard
+- Add, delete and complete tasks
+- Tasks save permanently to a local database
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | Node.js, Express |
+| Database | SQLite (better-sqlite3) |
+| Version Control | Git, GitHub |
+
+---
+
+## The Vision
+
+Kataliya is being built in acts:
+
+- **Act 1 (Current)** — The Brain. Software foundation, task management, memory system
+- **Act 2** — The Senses. Voice input, notifications, mobile access
+- **Act 3** — Physical Interaction. Raspberry Pi hub, connected devices
+- **Act 4** — Protection. Non-violent protective presence
+
+---
+
+## Built With AI Assistance
+
+This project was built in collaboration with **Claude** (by Anthropic) as a learning and development tool. Claude assisted with code implementation, debugging, and technical guidance throughout the build process. All product decisions, vision, design, and architecture were made by the developer.
+
+---
+
+## Running Locally
+
+**Prerequisites:** Node.js installed
+
+**Setup:**
+```bash
+git clone https://github.com/imanathimabunda8-cmyk/Kataliya.git
+cd Kataliya
+npm install
+npm approve-scripts better-sqlite3
+node backend/server.js
+```
+
+Then open `frontend/index.html` with Live Server in VS Code.
+
+---
+
+## Developer
+
+Built by **Imi** — Business IT student, solo developer, egoist of programming.
+
+> *"Good practice is best practice."*
+
+Durban, South Africa 🇿🇦
+
+---
+
+*Kataliya is not just an app. She is an extension of values, identity, and vision. Built to serve, protect, and grow.*
