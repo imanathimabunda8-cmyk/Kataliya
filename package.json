@@ -1,5 +1,4 @@
 {
-  {
   "name": "kataliya",
   "version": "1.0.0",
   "description": "",
@@ -7,10 +6,9 @@
   "scripts": {
     "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-},
   },
   "keywords": [],
-  "author": "",
+  "author": "Imi",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
