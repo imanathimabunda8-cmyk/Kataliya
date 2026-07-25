@@ -1,4 +1,4 @@
-const API = 'http://localhost:3000';
+const API = 'https://kataliya-production.up.railway.app';
 let selectedTaskId = null;
 
 window.addEventListener('DOMContentLoaded', () => {
